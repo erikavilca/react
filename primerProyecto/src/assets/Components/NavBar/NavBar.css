@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #9fbeb7;
+    padding: 30px 100px;
+}
+
+.container #buscador {
+    height: 30px;
+    width: 330px;
+    padding-left: 5px;
+}
+
+.containerBtn {
+    display: flex;
+    background-color: #84a39c;
+    justify-content: end;
+}
+
+.containerBtn .btn {
+    background-color: #84a39c;
+    margin-right: 30px;
+    height: 30px;
+    padding: 0px 30px;
+    color: black;
+    border: none;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: #8db3a5;
+}
+
+.carrito{
+    position: relative;
+}
+.numCantidad{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ffd51af9;
+    padding: 3px;
+    border-radius: 100%;
+    transform: translate(70%, -80%);
+}
